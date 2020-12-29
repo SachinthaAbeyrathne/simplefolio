@@ -5,7 +5,7 @@
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
-  font-weight: 400;
+  font-weight: 300;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
@@ -17,9 +17,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+   background: url("/src/images/Profile1.png");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -27,7 +27,7 @@
 
   .hero-title {
     font-size: 5.6rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 3.2rem;
     text-align: left;
 

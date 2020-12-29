@@ -10,14 +10,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Sachintha ',
+  subtitle: 'front-end Dev',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'Profile1.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -68,17 +68,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/SachinthaAbey',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sachinthaabeyrathne/',
     },
     {
       id: nanoid(),
